@@ -6,6 +6,10 @@ authors: []
 capabilities: []
 integrations:
   - "openai"
+repository:
+  type: git
+  url: "https://github.com/newsledbans/astro-agent-blueprints"
+  directory: brainstorming
 ---
 
 # Brainstorming Ideas Into Designs
