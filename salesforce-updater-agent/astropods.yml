@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://astropods.com/schema/package.json
+spec: package/v1
+name: salesforce-updater-agent
+meta: {}
+
+agent:
+  build:
+    context: .
+    dockerfile: Dockerfile
+
+models:
+  anthropic:
+    provider: anthropic
+
+dev:
+  interfaces:
+    messaging:
+      adapters: [web]
